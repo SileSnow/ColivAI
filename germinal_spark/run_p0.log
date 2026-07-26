@@ -1,0 +1,10 @@
+预训练 embedding: torch.Size([16, 128]) (16x128)
+Phase 0: 单柱 + 因果掩码 + 解耦合embedding
+  🔥 GerminalPool.spark() #1: GermCell[0] → Neuroblast (layers=1)
+E 0 [1c] loss=0.506 ta=92.44% va=100.00% AR=0.00%
+E 1 [1c] loss=0.046 ta=100.00% va=100.00% AR=0.00%
+E 2 [1c] loss=0.024 ta=100.00% va=100.00% AR=0.00%
+E 3 [1c] loss=0.017 ta=100.00% va=100.00% AR=0.00%
+E 4 [1c] loss=0.014 ta=100.00% va=100.00% AR=0.00%
+E 5 [1c] loss=0.013 ta=100.00% va=100.00% AR=0.00%
+E 6 [1c] loss=0.012 ta=100.00% va=100.00% AR=0.00%

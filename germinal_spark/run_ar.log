@@ -1,0 +1,20 @@
+=== Germinal Spark 训练 + 自回归评估 ===
+初始柱=1 max=6 epochs=30
+  🔥 GerminalPool.spark() #1: GermCell[0] → Neuroblast (layers=1)
+E 0 [1c/0m] loss=0.176 ta=96.80% | va=100.00% vl=0.002 | AR=0.00%
+    🌱 Neuroblast[976]: layers=4 → 成熟！迁移至 ColumnPool
+E 1 [1c/1m] loss=0.011 ta=100.00% | va=100.00% vl=0.000 | AR=0.00%
+E 2 [1c/1m] loss=0.010 ta=100.00% | va=100.00% vl=0.000 | AR=0.00%
+  🔥 GerminalPool.spark() #2: GermCell[1] → Neuroblast (layers=1)
+    🔥🔥🔥 SPARK! 生成新 Neuroblast (共 2 柱)
+E 3 [2c/1m] loss=0.010 ta=100.00% | va=100.00% vl=0.000 | AR=0.00%
+    🌱 Neuroblast[592]: layers=2
+  🧠 dl=1.0080
+E 4 [2c/1m] loss=0.010 ta=100.00% | va=100.00% vl=0.000 | AR=0.00%
+    🌱 Neuroblast[592]: layers=3
+E 5 [2c/1m] loss=0.010 ta=100.00% | va=100.00% vl=0.000 | AR=0.00%
+    🌱 Neuroblast[592]: layers=4 → 成熟！迁移至 ColumnPool
+E 6 [2c/2m] loss=0.010 ta=100.00% | va=100.00% vl=0.000 | AR=0.00%
+  🧠 dl=0.7769
+E 7 [2c/2m] loss=0.010 ta=100.00% | va=100.00% vl=0.000 | AR=0.00%
+E 8 [2c/2m] loss=0.010 ta=100.00% | va=100.00% vl=0.000 | AR=0.00%

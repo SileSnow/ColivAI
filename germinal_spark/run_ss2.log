@@ -1,0 +1,20 @@
+=== Germinal Spark — Scheduled Sampling + 单步算术 ===
+epochs=40 batch=32 lr=0.001
+数据: train=20000 val=2000
+  🔥 GerminalPool.spark() #1: GermCell[0] → Neuroblast (layers=1)
+E 0 [1c/0m] loss=0.197 ta=97.06% | va=100.00% | AR=0.00% ss_p=0.00
+    🌱 Neuroblast[712]: layers=4 → 成熟！迁移至 ColumnPool
+E 1 [1c/1m] loss=0.013 ta=100.00% | va=100.00% | AR=0.00% ss_p=0.00
+E 2 [1c/1m] loss=0.011 ta=100.00% | va=100.00% | AR=0.00% ss_p=0.00
+  🔥 GerminalPool.spark() #2: GermCell[1] → Neuroblast (layers=1)
+    🔥🔥🔥 SPARK! 生成新 Neuroblast (共 2 柱)
+E 3 [2c/1m] loss=0.010 ta=100.00% | va=100.00% | AR=0.00% ss_p=0.00
+    🌱 Neuroblast[944]: layers=2
+  🧠 dl=0.8856
+E 4 [2c/1m] loss=0.010 ta=100.00% | va=100.00% | AR=0.00% ss_p=0.00
+    🌱 Neuroblast[944]: layers=3
+E 5 [2c/1m] loss=0.010 ta=100.00% | va=100.00% | AR=0.00% ss_p=0.00
+    🌱 Neuroblast[944]: layers=4 → 成熟！迁移至 ColumnPool
+E 6 [2c/2m] loss=0.010 ta=100.00% | va=100.00% | AR=0.00% ss_p=0.07
+  🧠 dl=0.5582
+E 7 [2c/2m] loss=0.010 ta=100.00% | va=100.00% | AR=0.00% ss_p=0.09
