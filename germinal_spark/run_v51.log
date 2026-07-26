@@ -1,0 +1,76 @@
+V5.1: 连续链算术 | 1柱 → SparkTrigger → 自动增长
+d_model=128 batch=16 lr=0.0003 max_epochs=30
+数据: train=20000 val=2000 avg_len=53
+  🔥 GerminalPool.spark() #1: GermCell[0] → Neuroblast (layers=1)
+E 0 [1c/1m] loss=1.626 ta=51.55% va=52.17% AR=0.00% PE=0.0000 util=[100.0%]
+  SparkTrigger[e0]: PE=0.0000, Util=0.00%, 太早 → -
+E 1 [1c/1m] loss=1.569 ta=52.37% va=52.16% AR=0.00% PE=0.0000 util=[100.0%]
+  SparkTrigger[e1]: PE=0.0000, Util=0.00%, 太早 → -
+E 2 [1c/1m] loss=1.558 ta=52.34% va=52.19% AR=0.00% PE=0.0000 util=[100.0%]
+  SparkTrigger[e2]: PE=0.0000, Util=0.00%, 太早 → -
+E 3 [1c/1m] loss=1.547 ta=52.35% va=52.16% AR=0.00% PE=0.0000 util=[100.0%]
+  SparkTrigger[e3]: PE=0.0000, Util=0.00%, 太早 → -
+E 4 [1c/1m] loss=1.538 ta=52.38% va=52.17% AR=0.00% PE=0.0000 util=[100.0%]
+  SparkTrigger[e4]: PE=0.0000, Util=0.00%, 太早 → -
+E 5 [1c/1m] loss=1.531 ta=52.42% va=52.17% AR=0.00% PE=0.0000 util=[100.0%]
+  SparkTrigger[e5]: PE=0.0000, Util=100.00% → -
+E 6 [1c/1m] loss=1.525 ta=52.46% va=52.22% AR=0.00% PE=0.0000 util=[100.0%]
+  SparkTrigger[e6]: PE=0.0000, Util=100.00% → -
+E 7 [1c/1m] loss=1.521 ta=52.51% va=52.39% AR=0.00% PE=0.0000 util=[100.0%]
+  🔥 GerminalPool.spark() #2: GermCell[1] → Neuroblast (layers=1)
+  SparkTrigger[e7]: PE=0.0000, 休眠, Util=100.00% → 🔥
+    🔥🔥🔥 SPARK! 生成新 Neuroblast (共 2 柱)
+E 8 [2c/1m] loss=1.516 ta=52.64% va=52.38% AR=0.00% PE=0.0000 util=[90.0% 10.0%]
+    🌱 Neuroblast[488]: layers=2
+  SparkTrigger[e8]: PE=0.0000, Util=0.00%, 冷却 → -
+E 9 [2c/1m] loss=1.513 ta=52.78% va=52.81% AR=1.00% PE=0.0000 util=[83.3% 16.7%]
+    🌱 Neuroblast[488]: layers=3
+  SparkTrigger[e9]: PE=0.0000, Util=0.00%, 冷却 → -
+E10 [2c/1m] loss=1.509 ta=52.87% va=52.78% AR=1.00% PE=0.0000 util=[78.6% 21.4%]
+    🌱 Neuroblast[488]: layers=4 → 成熟！迁移至 ColumnPool
+  SparkTrigger[e10]: PE=0.0000, Util=78.55% → -
+E11 [2c/2m] loss=1.506 ta=53.00% va=52.77% AR=0.00% PE=0.0000 util=[75.0% 25.0%]
+  SparkTrigger[e11]: PE=0.0000, Util=74.97% → -
+E12 [2c/2m] loss=1.503 ta=53.05% va=52.95% AR=1.00% PE=0.0000 util=[72.2% 27.8%]
+  🔥 GerminalPool.spark() #3: GermCell[0] → Neuroblast (layers=1)
+  SparkTrigger[e12]: PE=0.0000, 休眠, Util=72.20% → 🔥
+    🔥🔥🔥 SPARK! 生成新 Neuroblast (共 3 柱)
+E13 [3c/2m] loss=1.506 ta=53.17% va=53.20% AR=1.00% PE=0.0000 util=[70.0% 30.0% 0.0%]
+    🌱 Neuroblast[960]: layers=2
+  SparkTrigger[e13]: PE=0.0000, Util=0.00%, 冷却 → -
+E14 [3c/2m] loss=1.504 ta=53.21% va=53.00% AR=0.00% PE=0.0000 util=[68.2% 31.8% 0.0%]
+    🌱 Neuroblast[960]: layers=3
+  SparkTrigger[e14]: PE=0.0000, Util=0.00%, 冷却 → -
+E15 [3c/2m] loss=1.502 ta=53.25% va=53.17% AR=0.00% PE=0.0000 util=[66.7% 33.3% 0.0%]
+    🌱 Neuroblast[960]: layers=4 → 成熟！迁移至 ColumnPool
+  SparkTrigger[e15]: PE=0.0000, Util=66.65% → -
+E16 [3c/3m] loss=1.500 ta=53.24% va=53.21% AR=1.00% PE=0.0000 util=[65.4% 34.6% 0.0%]
+  SparkTrigger[e16]: PE=0.0000, Util=65.37% → -
+E17 [3c/3m] loss=1.503 ta=53.25% va=53.13% AR=1.00% PE=0.0000 util=[64.3% 35.7% 0.0%]
+  SparkTrigger[e17]: PE=0.0000, 休眠, Util=64.27% → -
+E18 [3c/3m] loss=1.503 ta=53.20% va=53.16% AR=1.00% PE=0.0000 util=[63.3% 36.7% 0.0%]
+  SparkTrigger[e18]: PE=0.0000, 休眠, Util=63.32% → -
+E19 [3c/3m] loss=1.501 ta=53.30% va=53.17% AR=1.00% PE=0.0000 util=[62.5% 37.5% 0.0%]
+  SparkTrigger[e19]: PE=0.0000, 休眠, Util=62.49% → -
+E20 [3c/3m] loss=1.499 ta=53.32% va=53.26% AR=1.00% PE=0.0000 util=[61.8% 38.2% 0.0%]
+  SparkTrigger[e20]: PE=0.0000, 休眠, Util=61.75% → -
+E21 [3c/3m] loss=1.497 ta=53.39% va=53.29% AR=1.00% PE=0.0000 util=[61.1% 38.9% 0.0%]
+  SparkTrigger[e21]: PE=0.0000, 休眠, Util=61.10% → -
+E22 [3c/3m] loss=1.496 ta=53.37% va=53.25% AR=1.00% PE=0.0000 util=[60.5% 39.5% 0.0%]
+  SparkTrigger[e22]: PE=0.0000, 休眠, Util=60.52% → -
+E23 [3c/3m] loss=1.495 ta=53.40% va=53.25% AR=1.00% PE=0.0000 util=[60.0% 40.0% 0.0%]
+  SparkTrigger[e23]: PE=0.0000, 休眠, Util=59.99% → -
+E24 [3c/3m] loss=1.495 ta=53.39% va=53.39% AR=1.00% PE=0.0000 util=[59.5% 40.5% 0.0%]
+  SparkTrigger[e24]: PE=0.0000, 休眠, Util=59.52% → -
+E25 [3c/3m] loss=1.495 ta=53.43% va=53.27% AR=1.00% PE=0.0000 util=[59.1% 40.9% 0.0%]
+  SparkTrigger[e25]: PE=0.0000, 休眠, Util=59.08% → -
+E26 [3c/3m] loss=1.494 ta=53.38% va=53.40% AR=1.00% PE=0.0000 util=[58.7% 41.3% 0.0%]
+  SparkTrigger[e26]: PE=0.0000, 休眠, Util=58.69% → -
+E27 [3c/3m] loss=1.493 ta=53.43% va=53.35% AR=1.00% PE=0.0000 util=[58.3% 41.7% 0.0%]
+  SparkTrigger[e27]: PE=0.0000, 休眠, Util=58.33% → -
+E28 [3c/3m] loss=1.494 ta=53.46% va=53.36% AR=1.00% PE=0.0000 util=[58.0% 42.0% 0.0%]
+  SparkTrigger[e28]: PE=0.0000, 休眠, Util=57.99% → -
+E29 [3c/3m] loss=1.493 ta=53.44% va=53.34% AR=1.00% PE=0.0000 util=[57.7% 42.3% 0.0%]
+  SparkTrigger[e29]: PE=0.0000, 休眠, Util=57.69% → -
+
+Done | best_AR=1.00% | cols=3/3m | sparks=3

@@ -1,0 +1,65 @@
+=== Germinal Spark — Scheduled Sampling + 单步算术 ===
+epochs=40 batch=32 lr=0.001
+数据: train=20000 val=2000
+  🔥 GerminalPool.spark() #1: GermCell[0] → Neuroblast (layers=1)
+E 0 [1c/0m] loss=0.197 ta=97.06% | va=100.00% | AR=0.00% ss_p=0.00
+    🌱 Neuroblast[824]: layers=4 → 成熟！迁移至 ColumnPool
+E 1 [1c/1m] loss=0.013 ta=100.00% | va=100.00% | AR=0.00% ss_p=0.00
+E 2 [1c/1m] loss=0.011 ta=100.00% | va=100.00% | AR=0.00% ss_p=0.00
+  🔥 GerminalPool.spark() #2: GermCell[1] → Neuroblast (layers=1)
+    🔥🔥🔥 SPARK! 生成新 Neuroblast (共 2 柱)
+E 3 [2c/1m] loss=0.010 ta=100.00% | va=100.00% | AR=0.00% ss_p=0.00
+    🌱 Neuroblast[232]: layers=2
+  🧠 dl=0.8668
+E 4 [2c/1m] loss=0.010 ta=100.00% | va=100.00% | AR=0.00% ss_p=0.00
+    🌱 Neuroblast[232]: layers=3
+E 5 [2c/1m] loss=0.010 ta=100.00% | va=100.00% | AR=0.00% ss_p=0.00
+    🌱 Neuroblast[232]: layers=4 → 成熟！迁移至 ColumnPool
+E 6 [2c/2m] loss=0.010 ta=100.00% | va=100.00% | AR=0.00% ss_p=0.07
+  🧠 dl=0.5964
+E 7 [2c/2m] loss=0.010 ta=100.00% | va=100.00% | AR=0.00% ss_p=0.09
+E 8 [2c/2m] loss=0.010 ta=100.00% | va=100.00% | AR=0.00% ss_p=0.10
+E 9 [2c/2m] loss=0.010 ta=100.00% | va=100.00% | AR=0.00% ss_p=0.11
+  🧠 dl=0.4327
+E10 [2c/2m] loss=0.010 ta=100.00% | va=100.00% | AR=0.00% ss_p=0.12
+E11 [2c/2m] loss=0.010 ta=100.00% | va=100.00% | AR=0.00% ss_p=0.14
+E12 [2c/2m] loss=0.010 ta=100.00% | va=100.00% | AR=0.00% ss_p=0.15
+  🧠 dl=0.3047
+E13 [2c/2m] loss=0.010 ta=100.00% | va=100.00% | AR=0.00% ss_p=0.16
+E14 [2c/2m] loss=0.010 ta=100.00% | va=100.00% | AR=0.00% ss_p=0.17
+E15 [2c/2m] loss=0.010 ta=100.00% | va=100.00% | AR=0.00% ss_p=0.19
+  🧠 dl=0.1864
+E16 [2c/2m] loss=0.010 ta=100.00% | va=100.00% | AR=0.00% ss_p=0.20
+E17 [2c/2m] loss=0.010 ta=100.00% | va=100.00% | AR=0.00% ss_p=0.21
+E18 [2c/2m] loss=0.010 ta=100.00% | va=100.00% | AR=0.00% ss_p=0.23
+  🧠 dl=0.1772
+E19 [2c/2m] loss=0.010 ta=100.00% | va=100.00% | AR=0.00% ss_p=0.24
+E20 [2c/2m] loss=0.010 ta=100.00% | va=100.00% | AR=0.00% ss_p=0.25
+E21 [2c/2m] loss=0.010 ta=100.00% | va=100.00% | AR=0.00% ss_p=0.26
+  🧠 dl=0.1844
+E22 [2c/2m] loss=0.010 ta=100.00% | va=100.00% | AR=0.00% ss_p=0.28
+E23 [2c/2m] loss=0.010 ta=100.00% | va=100.00% | AR=0.00% ss_p=0.29
+E24 [2c/2m] loss=0.010 ta=100.00% | va=100.00% | AR=0.00% ss_p=0.30
+  🧠 dl=0.1282
+E25 [2c/2m] loss=0.010 ta=100.00% | va=100.00% | AR=0.00% ss_p=0.31
+E26 [2c/2m] loss=0.010 ta=100.00% | va=100.00% | AR=0.00% ss_p=0.33
+E27 [2c/2m] loss=0.010 ta=100.00% | va=100.00% | AR=0.00% ss_p=0.34
+  🧠 dl=0.1128
+E28 [2c/2m] loss=0.010 ta=100.00% | va=100.00% | AR=0.00% ss_p=0.35
+E29 [2c/2m] loss=0.010 ta=100.00% | va=100.00% | AR=0.00% ss_p=0.36
+E30 [2c/2m] loss=0.010 ta=100.00% | va=100.00% | AR=0.00% ss_p=0.38
+  🧠 dl=0.1069
+E31 [2c/2m] loss=0.010 ta=100.00% | va=100.00% | AR=0.00% ss_p=0.39
+E32 [2c/2m] loss=0.010 ta=100.00% | va=100.00% | AR=0.00% ss_p=0.40
+E33 [2c/2m] loss=0.010 ta=100.00% | va=100.00% | AR=0.00% ss_p=0.41
+  🧠 dl=0.1069
+E34 [2c/2m] loss=0.010 ta=100.00% | va=100.00% | AR=0.00% ss_p=0.42
+E35 [2c/2m] loss=0.010 ta=100.00% | va=100.00% | AR=0.00% ss_p=0.44
+E36 [2c/2m] loss=0.010 ta=100.00% | va=100.00% | AR=0.00% ss_p=0.45
+  🧠 dl=0.0938
+E37 [2c/2m] loss=0.010 ta=100.00% | va=100.00% | AR=0.00% ss_p=0.46
+E38 [2c/2m] loss=0.010 ta=100.00% | va=100.00% | AR=0.00% ss_p=0.47
+E39 [2c/2m] loss=0.010 ta=100.00% | va=100.00% | AR=0.00% ss_p=0.49
+  🧠 dl=0.0938
+
+Done | best_AR=0.00% | cols=2/2m sparks=2

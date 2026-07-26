@@ -1,0 +1,13 @@
+
+============================================================
+  Germinal Spark | mode=gs_full | chain=yes
+  init_cols=1 max_cols=6
+============================================================
+
+  🔥 GerminalPool.spark() #1: GermCell[0] → Neuroblast (layers=1)
+E  0 [1c/0m] train_loss=0.176 acc=96.80% | val_acc=100.00%
+    🌱 Neuroblast[248]: layers=4 → 成熟！迁移至 ColumnPool
+E  1 [1c/1m] train_loss=0.011 acc=100.00% | val_acc=100.00%
+E  2 [1c/1m] train_loss=0.010 acc=100.00% | val_acc=100.00%
+  🔥 GerminalPool.spark() #2: GermCell[1] → Neuroblast (layers=1)
+    🔥🔥🔥 SPARK! 生成新 Neuroblast (共 2 柱)

@@ -1,0 +1,35 @@
+预训练 embedding: torch.Size([16, 128]) (16x128) → 直接匹配 d_model=128
+Phase 0: 单柱 + 因果掩码 + 解耦合embedding
+  🔥 GerminalPool.spark() #1: GermCell[0] → Neuroblast (layers=1)
+E 0 [1c] loss=1.447 ta=54.27% va=55.12% AR=1.50%
+E 1 [1c] loss=1.370 ta=55.10% va=55.21% AR=2.00%
+E 2 [1c] loss=1.352 ta=55.11% va=55.13% AR=2.00%
+E 3 [1c] loss=1.335 ta=55.17% va=55.21% AR=1.00%
+E 4 [1c] loss=1.321 ta=55.34% va=55.43% AR=1.50%
+E 5 [1c] loss=1.309 ta=55.57% va=55.49% AR=1.50%
+E 6 [1c] loss=1.298 ta=55.90% va=55.92% AR=1.50%
+E 7 [1c] loss=1.288 ta=56.33% va=55.81% AR=1.00%
+E 8 [1c] loss=1.280 ta=56.78% va=57.18% AR=0.50%
+E 9 [1c] loss=1.272 ta=57.23% va=57.78% AR=1.50%
+E10 [1c] loss=1.266 ta=57.63% va=59.27% AR=1.50%
+E11 [1c] loss=1.260 ta=58.01% va=57.76% AR=1.50%
+E12 [1c] loss=1.254 ta=58.29% va=57.65% AR=1.50%
+E13 [1c] loss=1.249 ta=58.50% va=59.42% AR=1.50%
+E14 [1c] loss=1.245 ta=58.78% va=58.33% AR=1.50%
+E15 [1c] loss=1.241 ta=58.95% va=58.78% AR=1.50%
+E16 [1c] loss=1.238 ta=59.16% va=58.88% AR=1.00%
+E17 [1c] loss=1.235 ta=59.23% va=58.49% AR=1.00%
+E18 [1c] loss=1.232 ta=59.35% va=59.75% AR=1.50%
+E19 [1c] loss=1.230 ta=59.52% va=59.50% AR=1.50%
+E20 [1c] loss=1.229 ta=59.58% va=59.64% AR=1.50%
+E21 [1c] loss=1.227 ta=59.66% va=60.07% AR=1.50%
+E22 [1c] loss=1.225 ta=59.73% va=59.74% AR=1.50%
+E23 [1c] loss=1.224 ta=59.77% va=59.67% AR=1.50%
+E24 [1c] loss=1.224 ta=59.81% va=59.60% AR=1.50%
+E25 [1c] loss=1.223 ta=59.78% va=59.91% AR=1.50%
+E26 [1c] loss=1.222 ta=59.90% va=59.74% AR=1.50%
+E27 [1c] loss=1.222 ta=59.86% va=59.69% AR=1.50%
+E28 [1c] loss=1.222 ta=59.84% va=59.73% AR=1.50%
+E29 [1c] loss=1.222 ta=59.83% va=59.75% AR=1.50%
+
+Done | best_AR=2.00%

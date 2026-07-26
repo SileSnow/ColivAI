@@ -1,0 +1,6 @@
+预训练 embedding: torch.Size([16, 128])
+参数: 1,062,400 (embedding冻结)
+E 0 loss=0.209 ta=93.33% va=97.15% AR=0.00%
+E 1 loss=0.008 ta=99.86% va=100.00% AR=0.00%
+E 2 loss=0.000 ta=100.00% va=100.00% AR=0.00%
+E 3 loss=0.000 ta=100.00% va=100.00% AR=0.00%
