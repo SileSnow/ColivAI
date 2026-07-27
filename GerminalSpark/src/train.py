@@ -18,6 +18,10 @@ import torch.optim as optim
 from torch.optim.lr_scheduler import CosineAnnealingLR
 import argparse, random, os, sys
 
+# 确保可以从上级目录（GerminalSpark/）也能正常运行
+if __name__ == "__main__" and __package__ is None:
+    sys.path.insert(0, os.path.dirname(__file__))
+
 from config import SparkConfig, ARITHMETIC_CONFIG
 from germinal_spark import GerminalSpark
 
