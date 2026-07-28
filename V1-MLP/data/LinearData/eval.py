@@ -6,3 +6,8 @@ model.eval()
 with torch.no_grad():
     y_pred = model(torch.tensor([[3.0]]))
     print(y_pred)
+
+
+
+
+############
