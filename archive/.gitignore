@@ -1,0 +1,42 @@
+# =========================================================
+# 训练产物与本地环境 —— 一律不进 GitHub
+# (文件仍保留在工作副本中, 只是不被 git 跟踪)
+# =========================================================
+
+# Python 虚拟环境: 含 421MB 的 libtorch_cpu.so,
+# 超过 GitHub 单文件 100MB 上限(且不使用 Git LFS), 必须排除
+.torchvenv/
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 训练产物: 模型检查点 / 权重 / 备份
+*.pt
+*.pth
+*.safetensors
+checkpoints*/
+*.bak
+
+# 日志与运行输出
+*.log
+*.txt
+logs/
+
+# 原始数据集(MNIST 等, 训练脚本可自行下载/生成)
+airesearch/data/
+
+# 图片与图表
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+figures/
+
+# 编辑器 / 系统文件
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
